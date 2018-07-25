@@ -1,0 +1,12 @@
+#!/bin/bash
+
+git add ush.c arg_parse.h arg_parse.c builtin.h builtin.c
+read -p "Comment: " comment
+
+comment=${comment:-User}
+
+git commit -F comment
+
+git push
+
+
