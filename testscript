@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo -n "message: "
-read msg
-
-echo $msg
